@@ -16,12 +16,4 @@ export default defineConfig({
       'assets': resolve('./src/assets')
     }
   },
-  // css预处理器
-  css: {
-    preprocessorOptions: {
-      scss: {
-        additionalData: `@use '@/assets/scss/index.scss' as *`
-      }
-    }
-  }
 })
